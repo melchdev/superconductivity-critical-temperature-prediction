@@ -60,14 +60,33 @@ Models are evaluated using:
 - Matplotlib
 - Scikit-learn
 
-## Repository Contents
+## Repository Structure
 
-| File | Description |
+```text
+superconductivity-critical-temperature-prediction/
+│
+├── data/
+│   ├── Materiales_Superconductores.csv
+│   └── diccionario_Materiales_Superconductores.xlsx
+│
+├── notebooks/
+│   ├── microproyecto1.ipynb
+│   └── microproyecto1.html
+│
+├── .gitignore
+├── README.md
+└── requirements.txt
+```
+
+### Files Description
+
+| File / Directory | Description |
 |---|---|
-| `microproyecto1.ipynb` | Data analysis and machine learning implementation |
-| `microproyecto1.html` | microproyecto1.ipynb file saved as HTML file |
-| `Materiales_Superconductores.csv` | Dataset used in the project |
-| `diccionario_Materiales_Superconductores.xlsx` | Dataset variable descriptions |
+| `data/` | Dataset and data dictionary used in the project. |
+| `notebooks/` | Jupyter Notebook containing the analysis and model development, along with its HTML export. |
+| `.gitignore` | Specifies files and directories excluded from Git tracking. |
+| `README.md` | Project overview, methodology, and documentation. |
+| `requirements.txt` | Python dependencies required to run the project. |
 
 ## Academic Context
 
